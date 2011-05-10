@@ -6,6 +6,7 @@ Table of Contents:
 ==================
 1. Features
 2. Known Issues
+3. Change Log
 
 
 =========
@@ -23,3 +24,33 @@ Features:
  
  
  Many Thanks to Ahmed Essam Naiem<ahmed-essam@live.com> for providing the main core system.
+ 
+===============
+3. Change Log:
+===============
+
+10th May 2011
+	Added Java 1.5+ support
+	Added to maven project
+	Removed Android specific code
+	By: Kamran
+	Email: xeus.man@gmail.com
+	Web: http://www.xeustechnologies.org/kamran
+
+6th of May 2010
+	Enahancing Functionality by Amine : bakhtout@gmail.com
+
+8th of June 2009
+	Adding comments and Announcing Open Source
+
+20 of March 2009
+	The class has been updated to include the Lam Alef Reshaping techniques
+	By		: Amr Ismail gawish
+	Email   : amr.gawish@gmail.com
+	Web		: www.amr-gawish.com
+
+25th of March 2008
+	the class is Arabic string reshaper, this class is targeting Android platform
+	By		: Ahmed Essam Naiem
+	E-Mail 	: ahmed-essam@live.com
+	Web		: www.ahmed-essam.com
