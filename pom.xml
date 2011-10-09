@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>better-arabic-reshaper</groupId>
 	<artifactId>better-arabic-reshaper</artifactId>
-	<version>0.4</version>
+	<version>0.5</version>
 
 	<build>
 		<sourceDirectory>${basedir}/src/main/java

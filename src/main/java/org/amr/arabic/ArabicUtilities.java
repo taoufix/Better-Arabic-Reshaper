@@ -13,6 +13,11 @@ import java.util.List;
 public class ArabicUtilities {
 
     /**
+     * the path of teh fonts file must be under assets folder
+     */
+    private static final String FONTS_LOCATION_PATH = "fonts/DejaVuSans.ttf";
+
+    /**
      * Helper function is to check if the character passed, is Arabic
      * 
      * @param target
@@ -146,6 +151,11 @@ public class ArabicUtilities {
             }
         }
 
+        // add remaining tempWord to finalWords
+        if (!tempWord.equals( "" )) {
+            finalWords.add( tempWord );
+        }
+
         String[] theWords = new String[finalWords.size()];
         theWords = finalWords.toArray( theWords );
 
@@ -158,7 +168,10 @@ public class ArabicUtilities {
             String[] sentences = allText.split( "\n" );
             for (int i = 0; i < sentences.length; i++) {
                 result.append( reshapeSentence( sentences[i] ) );
-                result.append( "\n" );
+                // don't append the line feed to the final sentence
+                if (i < sentences.length - 1) {
+                    result.append( "\n" );
+                }
             }
             return result.toString();
         } else {
@@ -219,8 +232,11 @@ public class ArabicUtilities {
                 reshapedText.append( words[i] );
             }
 
-            // Append the space to separate between words
-            reshapedText.append( " " );
+            // don't append the space to the final word
+            if (i < words.length - 1) {
+                // Append the space to separate between words
+                reshapedText.append( " " );
+            }
         }
 
         // return the final reshaped whole text

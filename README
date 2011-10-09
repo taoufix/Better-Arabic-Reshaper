@@ -29,13 +29,17 @@ Features:
 3. Change Log:
 ===============
 
+9th Oct 2011
+  Merged with original repo
+  by: Kamran
+
 10th May 2011
 	Added Java 1.5+ support
 	Added to maven project
 	Removed Android specific code
 	By: Kamran
 	Email: xeus.man@gmail.com
-	Web: http://www.xeustechnologies.org/kamran
+	Web: http://kamranzafar.org
 
 6th of May 2010
 	Enahancing Functionality by Amine : bakhtout@gmail.com
